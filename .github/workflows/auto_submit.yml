@@ -2,7 +2,7 @@ name: 🔁 Auto URL Submit Every 3 Hours
 
 on:
   schedule:
-    - cron: '30 0,3,6,9,12,15,18,21 * * *'  # IST: 6:30AM, 9:30AM...
+    - cron: '30 */2 * * *'  # IST: 6:30AM, 9:30AM...
   workflow_dispatch:  # Manual trigger
 
 permissions:                    # ✅ IMPORTANT: Push permission
