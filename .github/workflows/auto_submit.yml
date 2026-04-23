@@ -1,4 +1,4 @@
-name: 🔁 Auto URL Submit Every 3 Hours
+name: 🔁 Auto URL Submit Every 2 Hours
 
 on:
   schedule:
