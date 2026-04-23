@@ -243,3 +243,17 @@ Stacktrace:
 2026-04-24 01:04:50,229 - INFO - 🔄 [24/24] https://humaneanimalmedicalsurgicalhospital.com/wp...
 2026-04-24 01:04:52,651 - INFO - ✅ Done: https://humaneanimalmedicalsurgicalhospital.com/wp-content/uploads/formidable/4/SecureWayToBuyAmmmtubienOnlin.pdf
 2026-04-24 01:04:53,732 - INFO - ✨ Cycle complete
+2026-04-24 02:42:56,362 - INFO - 🚀 Starting | URLs: 42
+2026-04-24 02:42:56,363 - INFO - ====== WebDriver manager ======
+2026-04-24 02:42:56,518 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 02:42:56,554 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 02:42:56,582 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-24 02:42:56,582 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 02:42:56,695 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-24 02:42:56,700 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-24 02:42:56,700 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-24 02:42:56,749 - INFO - Driver downloading response is 200
+2026-04-24 02:42:56,808 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 02:42:56,942 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-24 02:42:57,327 - INFO - 🎉 No pending URLs. All done!
+2026-04-24 02:42:58,387 - INFO - ✨ Cycle complete
