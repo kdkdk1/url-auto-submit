@@ -93,3 +93,20 @@ Stacktrace:
 2026-04-23 15:58:45,114 - INFO - 🔄 [9/9] https://longwoodce.org/wp-content/uploads/formidab...
 2026-04-23 15:58:47,242 - INFO - ✅ Done: https://longwoodce.org/wp-content/uploads/formidable/16/Hire-Digital-Marketing-Expert-Chicago-Small-Busi.pdf
 2026-04-23 15:58:48,304 - INFO - ✨ Cycle complete
+2026-04-23 16:19:26,997 - INFO - 🚀 Starting | URLs: 1
+2026-04-23 16:19:26,998 - INFO - ====== WebDriver manager ======
+2026-04-23 16:19:29,260 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-23 16:19:29,293 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-23 16:19:29,319 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-23 16:19:29,319 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-23 16:19:29,417 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-23 16:19:29,423 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-23 16:19:29,423 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-23 16:19:29,468 - INFO - Driver downloading response is 200
+2026-04-23 16:19:29,530 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-23 16:19:29,664 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-23 16:19:36,619 - INFO - 📦 Pending: 1/1 URLs
+2026-04-23 16:19:38,700 - INFO - ✅ Login successful
+2026-04-23 16:19:38,700 - INFO - 🔄 [1/1] https://humaneanimalmedicalsurgicalhospital.com/wp...
+2026-04-23 16:19:41,776 - INFO - ✅ Done: https://humaneanimalmedicalsurgicalhospital.com/wp-content/uploads/formidable/4/quick-home-deliverys-154343423e.pdf
+2026-04-23 16:19:42,837 - INFO - ✨ Cycle complete
