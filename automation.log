@@ -257,3 +257,17 @@ Stacktrace:
 2026-04-24 02:42:56,942 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
 2026-04-24 02:42:57,327 - INFO - 🎉 No pending URLs. All done!
 2026-04-24 02:42:58,387 - INFO - ✨ Cycle complete
+2026-04-24 11:52:54,512 - INFO - 🚀 Starting | URLs: 42
+2026-04-24 11:52:54,514 - INFO - ====== WebDriver manager ======
+2026-04-24 11:52:56,369 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 11:52:56,456 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 11:52:56,533 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-24 11:52:56,533 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 11:52:56,751 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-24 11:52:56,758 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-24 11:52:56,758 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-24 11:52:56,909 - INFO - Driver downloading response is 200
+2026-04-24 11:52:57,463 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-24 11:52:57,657 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-24 11:53:00,974 - INFO - 🎉 No pending URLs. All done!
+2026-04-24 11:53:02,035 - INFO - ✨ Cycle complete
