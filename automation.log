@@ -51,3 +51,20 @@
 2026-04-29 17:53:12,886 - INFO - 🔄 [12/12] https://longwoodce.org/wp-content/uploads/formidab...
 2026-04-29 17:53:15,000 - INFO - ✅ Done: https://longwoodce.org/wp-content/uploads/formidable/16/Hire-Digital-Marketing-Expert-USA-Data-Driven-Re.pdf
 2026-04-29 17:53:16,277 - INFO - ✨ Cycle complete
+2026-04-29 18:20:25,635 - INFO - 🚀 Starting | URLs: 1
+2026-04-29 18:20:25,637 - INFO - ====== WebDriver manager ======
+2026-04-29 18:20:27,757 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 18:20:27,795 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 18:20:27,823 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-29 18:20:27,823 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 18:20:27,923 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-29 18:20:27,928 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 18:20:27,928 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 18:20:27,964 - INFO - Driver downloading response is 200
+2026-04-29 18:20:28,023 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 18:20:28,171 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-29 18:20:31,642 - INFO - 📦 Pending: 1/1 URLs
+2026-04-29 18:20:32,754 - INFO - ✅ Login successful
+2026-04-29 18:20:32,754 - INFO - 🔄 [1/1] https://www.burnaby.ca/sites/default/files/webform...
+2026-04-29 18:20:34,912 - INFO - ✅ Done: https://www.burnaby.ca/sites/default/files/webform/Affordable-Digital-Marketing-Expert-Billings-Monta.pdf
+2026-04-29 18:20:35,973 - INFO - ✨ Cycle complete
