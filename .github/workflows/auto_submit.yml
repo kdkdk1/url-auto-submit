@@ -1,7 +1,7 @@
 name: 🔁 Auto URL Submit Every 2 Hours
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Test के लिए (UTC)
+    - cron: '0 1,3,5,7,9,11,13,15,17,19,21,23 * * *'  # IST: 6:30, 8:30, 10:30...
   workflow_dispatch:  # Manual trigger
 
 permissions:                    # ✅ IMPORTANT: Push permission
