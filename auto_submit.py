@@ -16,6 +16,7 @@ logging.basicConfig(
 
 # ---------------- CONFIG ----------------
 PANEL_URL = "https://your-panel-url.com"   # 🔴 CHANGE THIS
+
 USERNAME = os.getenv("PANEL_USER")
 PASSWORD = os.getenv("PANEL_PASS")
 
@@ -30,7 +31,6 @@ def setup_driver():
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-
     options.binary_location = "/usr/bin/chromium-browser"
 
     service = Service(
@@ -80,7 +80,6 @@ def run():
 
         logging.info("🎉 Submission attempt done")
 
-        # screenshot for proof
         driver.save_screenshot("success.png")
 
     except Exception as e:
