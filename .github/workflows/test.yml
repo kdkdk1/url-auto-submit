@@ -1,4 +1,4 @@
-name: Auto URL Submitter
+name: Auto test URL Submitter
 
 on:
   push:
