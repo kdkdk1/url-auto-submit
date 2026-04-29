@@ -20,10 +20,18 @@ PANEL_URL = "https://personal-fast-index.info/panel20/panel.php"   # 🔴 CHANGE
 USERNAME = os.getenv("PANEL_USER")
 PASSWORD = os.getenv("PANEL_PASS")
 
-URLS = [
-    "https://example1.com",
-    "https://example2.com"
-]
+URL_FILE = "pdf_urls.txt"   # ✅ TXT file name
+
+# ---------------- READ URLS ----------------
+def load_urls():
+    if not os.path.exists(URL_FILE):
+        logging.error(f"❌ File not found: {URL_FILE}")
+        return []
+
+    with open(URL_FILE, "r") as f:
+        urls = [line.strip() for line in f if line.strip()]
+
+    return urls
 
 # ---------------- DRIVER SETUP ----------------
 def setup_driver():
@@ -44,6 +52,14 @@ def setup_driver():
 def run():
     logging.info("🚀 Starting bot")
 
+    urls = load_urls()
+
+    if not urls:
+        logging.warning("⚠️ No URLs found in txt file")
+        return
+
+    logging.info(f"📊 Loaded {len(urls)} URLs from file")
+
     driver = setup_driver()
 
     try:
@@ -62,11 +78,11 @@ def run():
         logging.info("✅ Login done")
 
         # ---------------- URL INPUT ----------------
-        logging.info(f"📥 Submitting {len(URLS)} URLs")
+        logging.info("📥 Pasting URLs...")
 
         textarea = driver.find_element(By.TAG_NAME, "textarea")
         textarea.clear()
-        textarea.send_keys("\n".join(URLS))
+        textarea.send_keys("\n".join(urls))
 
         time.sleep(2)
 
