@@ -1,40 +1,74 @@
-name: Auto Submit
-
+name: 🔁 Auto URL Submit Every 2 Hours
 on:
   schedule:
-    - cron: "0 */2 * * *"
-  workflow_dispatch:
+    - cron: '30 */2 * * *'  # IST: 6:30AM, 9:30AM...
+  workflow_dispatch:  # Manual trigger
+
+permissions:                    # ✅ IMPORTANT: Push permission
+  contents: write               # Allow writing to repo
+  actions: read                 # Allow reading workflow logs
 
 jobs:
-  run-bot:
-    runs-on: ubuntu-24.04
-
+  auto-submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Asia/Kolkata
     steps:
-      - name: 📥 Checkout
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}  # Explicit token
 
-      - name: 🐍 Setup Python
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: 📦 Install dependencies
         run: |
-          pip install selenium webdriver-manager
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: 🌐 Install Chromium
+      - name: 🌐 Install Chrome & Chromedriver
         run: |
-          sudo apt update
-          sudo apt install -y chromium-browser
+          sudo apt-get update
+          sudo apt-get install -y chromium chromium-driver
 
-      - name: ▶ Run Bot
+      - name: 🤖 Run Auto Submit Script
         env:
           PANEL_USER: ${{ secrets.PANEL_USER }}
           PANEL_PASS: ${{ secrets.PANEL_PASS }}
         run: python auto_submit.py
 
-      - name: 📸 Upload Screenshots
+      - name: 💾 Save Progress to Repo
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          if [ -f "submitted_urls.json" ]; then
+            git add submitted_urls.json
+          fi
+          if [ -f "automation.log" ]; then
+            git add automation.log
+          fi
+          
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "📝 Auto-update: $(date '+%Y-%m-%d %H:%M IST')"
+            git push
+          else
+            echo "✅ No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 📤 Upload Logs (for download)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: screenshots
-          path: "*.png"
+          name: automation-logs-${{ github.run_number }}
+          path: |
+            automation.log
+            submitted_urls.json
+          retention-days: 7
