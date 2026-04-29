@@ -210,5 +210,16 @@ __marimo__/
 # Custom: Auto-submit project tracking files
 # ===========================================
 *.local
-!submitted_urls.json
+.env.local
+
+# Explicitly track our automation files
 !automation.log
+!submitted_urls.json
+
+# Ignore generic logs but keep ours
+*.log
+!automation.log
+
+# Ignore local Chrome driver downloads
+chromedriver*
+chrome-linux/
