@@ -526,3 +526,17 @@ Stacktrace:
 2026-04-29 13:02:05,340 - INFO - 🔄 [4/4] https://careercenter.nsgc.org/company/simple-steps...
 2026-04-29 13:02:07,556 - INFO - ✅ Done: https://careercenter.nsgc.org/company/simple-steps-to-buy-ambien-online-no-rx-instant-checkout-homeee-deliveryyyyyy-11094
 2026-04-29 13:02:08,626 - INFO - ✨ Cycle complete
+2026-04-29 16:24:12,359 - INFO - 🚀 Starting | URLs: 1
+2026-04-29 16:24:12,361 - INFO - ====== WebDriver manager ======
+2026-04-29 16:24:13,910 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 16:24:13,998 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 16:24:14,026 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-29 16:24:14,026 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 16:24:14,131 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-29 16:24:14,138 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 16:24:14,138 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 16:24:14,180 - INFO - Driver downloading response is 200
+2026-04-29 16:24:14,241 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 16:24:14,388 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-29 16:24:17,529 - INFO - 🎉 No pending URLs. All done!
+2026-04-29 16:24:18,589 - INFO - ✨ Cycle complete
