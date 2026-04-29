@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # ---------------- CONFIG ----------------
-PANEL_URL = "https://your-panel-url.com"   # 🔴 CHANGE THIS
+PANEL_URL = "https://personal-fast-index.info/panel20/panel.php"   # 🔴 CHANGE THIS
 
 USERNAME = os.getenv("PANEL_USER")
 PASSWORD = os.getenv("PANEL_PASS")
