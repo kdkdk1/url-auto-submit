@@ -484,3 +484,22 @@ Stacktrace:
 2026-04-29 09:58:32,457 - INFO - 🔄 [12/12] https://www.bocusa.org/wp-content/uploads/formidab...
 2026-04-29 09:58:34,597 - INFO - ✅ Done: https://www.bocusa.org/wp-content/uploads/formidable/9/HoWtoBuYAmbIenOnLineFrOmHoMeDeLiveRy.pdf
 2026-04-29 09:58:35,666 - INFO - ✨ Cycle complete
+2026-04-29 11:54:45,768 - INFO - 🚀 Starting | URLs: 2
+2026-04-29 11:54:45,769 - INFO - ====== WebDriver manager ======
+2026-04-29 11:54:48,052 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 11:54:48,095 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 11:54:48,117 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-29 11:54:48,117 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 11:54:48,198 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-29 11:54:48,203 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 11:54:48,203 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 11:54:48,259 - INFO - Driver downloading response is 200
+2026-04-29 11:54:48,315 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 11:54:48,429 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-29 11:54:50,008 - INFO - 📦 Pending: 2/2 URLs
+2026-04-29 11:54:51,724 - INFO - ✅ Login successful
+2026-04-29 11:54:51,724 - INFO - 🔄 [1/2] https://careercenter.nsgc.org/company/where-to-sho...
+2026-04-29 11:54:53,844 - INFO - ✅ Done: https://careercenter.nsgc.org/company/where-to-shop-valium-online-safely-secure-buy-with-quick-no-rx-home-delivery-10453
+2026-04-29 11:54:55,346 - INFO - 🔄 [2/2] https://careercenter.nsgc.org/company/buying-order...
+2026-04-29 11:54:57,456 - INFO - ✅ Done: https://careercenter.nsgc.org/company/buying-order-valium-5mg-online-no-rx-overnight-step-by-step-guide-10498
+2026-04-29 11:54:58,516 - INFO - ✨ Cycle complete
