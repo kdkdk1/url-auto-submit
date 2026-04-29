@@ -68,3 +68,17 @@
 2026-04-29 18:20:32,754 - INFO - 🔄 [1/1] https://www.burnaby.ca/sites/default/files/webform...
 2026-04-29 18:20:34,912 - INFO - ✅ Done: https://www.burnaby.ca/sites/default/files/webform/Affordable-Digital-Marketing-Expert-Billings-Monta.pdf
 2026-04-29 18:20:35,973 - INFO - ✨ Cycle complete
+2026-04-30 00:32:00,064 - INFO - 🚀 Starting | URLs: 1
+2026-04-30 00:32:00,066 - INFO - ====== WebDriver manager ======
+2026-04-30 00:32:02,410 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-30 00:32:02,468 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-30 00:32:02,535 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-30 00:32:02,535 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-30 00:32:02,654 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-30 00:32:02,659 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-30 00:32:02,659 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-30 00:32:02,723 - INFO - Driver downloading response is 200
+2026-04-30 00:32:02,908 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-30 00:32:03,045 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-30 00:32:07,297 - INFO - 🎉 No pending URLs. All done!
+2026-04-30 00:32:08,357 - INFO - ✨ Cycle complete
