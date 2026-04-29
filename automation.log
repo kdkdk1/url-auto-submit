@@ -503,3 +503,26 @@ Stacktrace:
 2026-04-29 11:54:55,346 - INFO - 🔄 [2/2] https://careercenter.nsgc.org/company/buying-order...
 2026-04-29 11:54:57,456 - INFO - ✅ Done: https://careercenter.nsgc.org/company/buying-order-valium-5mg-online-no-rx-overnight-step-by-step-guide-10498
 2026-04-29 11:54:58,516 - INFO - ✨ Cycle complete
+2026-04-29 13:01:52,207 - INFO - 🚀 Starting | URLs: 6
+2026-04-29 13:01:52,209 - INFO - ====== WebDriver manager ======
+2026-04-29 13:01:52,370 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 13:01:52,408 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 13:01:52,438 - INFO - There is no [linux64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-29 13:01:52,438 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 13:01:52,542 - INFO - WebDriver version 147.0.7727.117 selected
+2026-04-29 13:01:52,549 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 13:01:52,549 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/linux64/chromedriver-linux64.zip
+2026-04-29 13:01:52,590 - INFO - Driver downloading response is 200
+2026-04-29 13:01:52,663 - INFO - Get LATEST chromedriver version for google-chrome
+2026-04-29 13:01:52,801 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
+2026-04-29 13:01:53,202 - INFO - 📦 Pending: 4/6 URLs
+2026-04-29 13:01:54,330 - INFO - ✅ Login successful
+2026-04-29 13:01:54,330 - INFO - 🔄 [1/4] https://careercenter.nsgc.org/company/how-to-buy-t...
+2026-04-29 13:01:56,509 - INFO - ✅ Done: https://careercenter.nsgc.org/company/how-to-buy-tramadol-online-no-rx-a-simple-step-by-step-guidessss-10643
+2026-04-29 13:01:58,010 - INFO - 🔄 [2/4] https://careercenter.nsgc.org/company/simple-steps...
+2026-04-29 13:02:00,176 - INFO - ✅ Done: https://careercenter.nsgc.org/company/simple-steps-to-buy-adderall-online-instant-checkout-home-deliveryyyyyyyyyy-10582
+2026-04-29 13:02:01,678 - INFO - 🔄 [3/4] https://careercenter.nsgc.org/company/simple-steps...
+2026-04-29 13:02:03,838 - INFO - ✅ Done: https://careercenter.nsgc.org/company/simple-steps-to-buy-ambien-online-no-rx-instant-checkout-homeee-deliveryyyyyyyyyyy-10690
+2026-04-29 13:02:05,340 - INFO - 🔄 [4/4] https://careercenter.nsgc.org/company/simple-steps...
+2026-04-29 13:02:07,556 - INFO - ✅ Done: https://careercenter.nsgc.org/company/simple-steps-to-buy-ambien-online-no-rx-instant-checkout-homeee-deliveryyyyyy-11094
+2026-04-29 13:02:08,626 - INFO - ✨ Cycle complete
