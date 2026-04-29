@@ -540,3 +540,27 @@ Stacktrace:
 2026-04-29 16:24:14,388 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
 2026-04-29 16:24:17,529 - INFO - 🎉 No pending URLs. All done!
 2026-04-29 16:24:18,589 - INFO - ✨ Cycle complete
+2026-04-29 16:47:15,814 - INFO - 🚀 Starting automation | Total URLs: 1
+2026-04-29 16:47:18,849 - ERROR - 💥 Fatal error: Message: session not created
+from unknown error: no chrome binary at /usr/bin/google-chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55dae399135a <unknown>
+#1 0x55dae33ad255 <unknown>
+#2 0x55dae33e68c0 <unknown>
+#3 0x55dae33e55d8 <unknown>
+#4 0x55dae343421a <unknown>
+#5 0x55dae343396c <unknown>
+#6 0x55dae33f2ba4 <unknown>
+#7 0x55dae33f3961 <unknown>
+#8 0x55dae395497b <unknown>
+#9 0x55dae3957a83 <unknown>
+#10 0x55dae394290c <unknown>
+#11 0x55dae3958219 <unknown>
+#12 0x55dae392b2e7 <unknown>
+#13 0x55dae397e7e8 <unknown>
+#14 0x55dae397ea13 <unknown>
+#15 0x55dae398fd53 <unknown>
+#16 0x7fb6081c8aa4 <unknown>
+#17 0x7fb608255c6c <unknown>
+
+2026-04-29 16:47:18,849 - INFO - ✨ Cycle complete
