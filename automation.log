@@ -82,3 +82,9 @@
 2026-04-30 00:32:03,045 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/147.0.7727.117]
 2026-04-30 00:32:07,297 - INFO - 🎉 No pending URLs. All done!
 2026-04-30 00:32:08,357 - INFO - ✨ Cycle complete
+2026-04-30 11:14:29,130 - INFO - 🚀 Starting automation | Total URLs: 1
+2026-04-30 11:14:29,131 - INFO - 🎯 Using browser binary: /usr/bin/chromium
+2026-04-30 11:14:29,131 - INFO - 🎯 Using chromedriver: /usr/bin/chromedriver
+2026-04-30 11:14:32,561 - INFO - ✅ WebDriver initialized
+2026-04-30 11:14:32,561 - INFO - 🎉 No pending URLs. All done!
+2026-04-30 11:14:33,621 - INFO - 🔚 WebDriver closed
