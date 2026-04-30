@@ -88,3 +88,13 @@
 2026-04-30 11:14:32,561 - INFO - ✅ WebDriver initialized
 2026-04-30 11:14:32,561 - INFO - 🎉 No pending URLs. All done!
 2026-04-30 11:14:33,621 - INFO - 🔚 WebDriver closed
+2026-04-30 11:15:57,191 - INFO - 🚀 Starting automation | Total URLs: 1
+2026-04-30 11:15:57,191 - INFO - 🎯 Using browser binary: /usr/bin/chromium
+2026-04-30 11:15:57,191 - INFO - 🎯 Using chromedriver: /usr/bin/chromedriver
+2026-04-30 11:16:01,348 - INFO - ✅ WebDriver initialized
+2026-04-30 11:16:01,348 - INFO - 📦 Processing 1/1 pending URLs
+2026-04-30 11:16:01,348 - INFO - 🔐 Logging into https://personal-fast-index.info/panel20/panel.php
+2026-04-30 11:16:02,476 - INFO - ✅ Login successful
+2026-04-30 11:16:02,476 - INFO - 🔄 [1/1] Submitting: https://www.burnaby.ca/sites/default/files/webform/Affordabl...
+2026-04-30 11:16:04,937 - INFO - ✅ Success: https://www.burnaby.ca/sites/default/files/webform/Affordable-Digital-Marketing-Expert-Billings-Monta.pdf
+2026-04-30 11:16:05,998 - INFO - 🔚 WebDriver closed
