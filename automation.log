@@ -108,3 +108,9 @@
 2026-04-30 14:10:00,724 - INFO - 🔄 [1/1] Submitting: https://careers.asq.org/company/buy-ambien-online-overnight-...
 2026-04-30 14:10:02,917 - INFO - ✅ Success: https://careers.asq.org/company/buy-ambien-online-overnight-easily-step-by-step-guide-64008
 2026-04-30 14:10:03,979 - INFO - 🔚 WebDriver closed
+2026-04-30 21:36:37,411 - INFO - 🚀 Starting automation | Total URLs: 1
+2026-04-30 21:36:37,411 - INFO - 🎯 Using browser binary: /usr/bin/chromium
+2026-04-30 21:36:37,411 - INFO - 🎯 Using chromedriver: /usr/bin/chromedriver
+2026-04-30 21:36:49,708 - INFO - ✅ WebDriver initialized
+2026-04-30 21:36:49,708 - INFO - 🎉 No pending URLs. All done!
+2026-04-30 21:36:50,765 - INFO - 🔚 WebDriver closed
