@@ -252,3 +252,9 @@
 2026-05-05 22:39:42,904 - INFO - ✅ WebDriver initialized
 2026-05-05 22:39:42,904 - INFO - 🎉 No pending URLs. All done!
 2026-05-05 22:39:43,964 - INFO - 🔚 WebDriver closed
+2026-05-06 03:16:21,000 - INFO - 🚀 Starting automation | Total URLs: 1
+2026-05-06 03:16:21,000 - INFO - 🎯 Using browser binary: /usr/bin/chromium
+2026-05-06 03:16:21,000 - INFO - 🎯 Using chromedriver: /usr/bin/chromedriver
+2026-05-06 03:16:25,690 - INFO - ✅ WebDriver initialized
+2026-05-06 03:16:25,690 - INFO - 🎉 No pending URLs. All done!
+2026-05-06 03:16:26,748 - INFO - 🔚 WebDriver closed
